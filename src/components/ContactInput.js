@@ -51,7 +51,9 @@ class ContactInput extends React.Component {
           value={this.state.tag}
           onChange={this.onTagChangeEventHandler}
         />
-        <button type="submit">Tambah</button>
+        <button type="submit">
+          <i class="fa-solid fa-user-plus"></i> Tambah
+        </button>
       </form>
     );
   }

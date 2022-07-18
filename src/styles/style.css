@@ -58,7 +58,7 @@
   .contact-item__delete {
     padding: 8px;
     font-size: 18px;
-    background-color: orangered;
+    background-color: rgb(255, 0, 0);
     color: white;
     border: 0;
     border-radius: 4px;
@@ -85,4 +85,15 @@
     width: 100%;
     padding: 8px;
     font-family: 'Inter', sans-serif;
+  }
+
+  input, button {
+    border-radius: 10px;
+  }
+
+  button[type=submit] {
+    color: white;
+    background-color: rgb(0, 102, 255);
+    text-transform: capitalize;
+    font-size: 14px;
   }
