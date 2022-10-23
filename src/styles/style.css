@@ -6,7 +6,7 @@
    
   body {
     font-family: 'Inter', sans-serif;
-    background-color: whitesmoke;
+    background-color: #F3F0D7;
   }
    
   img {
@@ -33,6 +33,7 @@
     border: 1px dashed black;
     padding: 16px;
     border-radius: 8px;
+    background-color: white;
   }
    
   .contact-item__image img {
@@ -71,6 +72,7 @@
     margin: 14px 0;
     border-radius: 8px;
     margin-bottom: 32px;
+    background-color: white;
   }
    
   .contact-input input {

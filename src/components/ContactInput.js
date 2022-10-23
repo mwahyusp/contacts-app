@@ -41,19 +41,19 @@ class ContactInput extends React.Component {
       <form className="contact-input" onSubmit={this.onSubmitEventHandler}>
         <input
           type="text"
-          placeholder="Nama"
+          placeholder="Nama Kontak"
           value={this.state.name}
           onChange={this.onNameChangeEventHandler}
-        />
+        />{" "}
         <input
           type="text"
-          placeholder="Tag"
+          placeholder="Tag Nama Kontak"
           value={this.state.tag}
           onChange={this.onTagChangeEventHandler}
-        />
+        />{" "}
         <button type="submit">
-          <i class="fa-solid fa-user-plus"></i> Tambah
-        </button>
+          <i class="fa-solid fa-user-plus"> </i> Tambah{" "}
+        </button>{" "}
       </form>
     );
   }
