@@ -1,101 +1,107 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-   
-  body {
-    font-family: 'Inter', sans-serif;
-    background-color: #F3F0D7;
-  }
-   
-  img {
-    width: 100%;
-  }
-   
-  .contact-app {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 16px;
-   
-  }
-   
-  .contact-app  h1 {
-    font-weight: normal;
-    font-size: 48px;
-    margin-bottom: 32px;
-  }
-   
-  .contact-item {
-    display: flex;
-    align-items: center;
-    margin: 24px 0;
-    border: 1px dashed black;
-    padding: 16px;
-    border-radius: 8px;
-    background-color: white;
-  }
-   
-  .contact-item__image img {
-    width: 64px;
-    border-radius: 50%;
-  }
-   
-  .contact-item__body {
-    margin-left: 8px;
-    padding-left: 8px;
-    border-left: 1px solid #aaa;
-    flex: 1;
-  }
-   
-  .contact-item__title {
-    padding: 4px 0;
-  }
-   
-  .contact-item__username {
-    font-weight: lighter;
-  }
-   
-  .contact-item__delete {
-    padding: 8px;
-    font-size: 18px;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-   
-  .contact-input {
-    border: 1px dashed black;
-    padding: 16px;
-    margin: 14px 0;
-    border-radius: 8px;
-    margin-bottom: 32px;
-    background-color: white;
-  }
-   
-  .contact-input input {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    margin: 8px 0;
-    font-family: 'Inter', sans-serif;
-  }
-   
-  .contact-input button {
-    width: 100%;
-    padding: 8px;
-    font-family: 'Inter', sans-serif;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  input, button {
-    border-radius: 10px;
-  }
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f3f0d7;
+}
 
-  button[type=submit] {
-    color: white;
-    background-color: rgb(0, 102, 255);
-    text-transform: capitalize;
-    font-size: 14px;
-  }
+img {
+  width: 100%;
+}
+
+.contact-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.contact-app h1 {
+  font-weight: normal;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  border: 1px dashed black;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.contact-item__image img {
+  width: 64px;
+  border-radius: 50%;
+}
+
+.contact-item__body {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid #aaa;
+  flex: 1;
+}
+
+.contact-item__title {
+  padding: 4px 0;
+}
+
+.contact-item__username {
+  font-weight: lighter;
+}
+
+.contact-item__delete {
+  padding: 8px;
+  font-size: 18px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-input {
+  border: 1px dashed black;
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+.contact-input input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-input button {
+  width: 100%;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+input,
+button {
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  color: white;
+  background-color: rgb(0, 102, 255);
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.redText {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+}

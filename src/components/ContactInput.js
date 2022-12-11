@@ -45,13 +45,22 @@ class ContactInput extends React.Component {
           value={this.state.name}
           onChange={this.onNameChangeEventHandler}
         />{" "}
+        {this.state.name === "" && (
+          <div className="redText">Please enter your name</div>
+        )}
         <input
           type="text"
           placeholder="Tag Nama Kontak"
           value={this.state.tag}
           onChange={this.onTagChangeEventHandler}
-        />{" "}
-        <button type="submit">
+        />
+        {this.state.tag === "" && (
+          <div className="redText">Please enter tag</div>
+        )}
+        <button
+          type="submit"
+          disabled={this.state.name === "" || this.state.tag === ""}
+        >
           <i class="fa-solid fa-user-plus"> </i> Tambah{" "}
         </button>{" "}
       </form>
