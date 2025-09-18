@@ -105,9 +105,3 @@ MIT License © 2025 **mwahyusp**
 Dibuat dengan ❤️ oleh **mwahyusp**
 
 ```
-
----
-
-Kalau kamu mau, aku bisa buat versi README yang ada badge status build, license, atau yang lebih “visual” supaya tampilannya makin profesional. Mau aku kirim versi itu juga?
-::contentReference[oaicite:0]{index=0}
-```
